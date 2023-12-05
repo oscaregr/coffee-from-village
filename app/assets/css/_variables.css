@@ -3,11 +3,12 @@
 :root {
   --header-height: 3rem;
   /* === colors pallete=== */
-  --color-light-shades: hsl(46, 27%, 90%); /*backgraund*/
-  --color-light-accent: hsl(0, 60%, 50%);
-  --color-Main-brand: hsl(33, 49%, 68%);
-  --color-dark-accent: hsl(32, 41%, 59%);
-  --color-dark-shades: hsl(9, 59%, 34%);
+  --color-white: hsl(46, 27%, 90%); /*backgraund*/
+  --color-black: hsl(35, 65%, 10%);
+  --color-red: hsl(0, 60%, 50%);
+  --color-brown-light: hsl(33, 49%, 68%);
+  --color-brown: #c2996b;
+  --color-brown-dark: #8a3324;
 
   /* === font and typography === */
 
@@ -24,8 +25,9 @@
   --smaller-font-size: .75rem;
 
   /* font weight */
-  --font-medium: 500;
+  --font-medium: 300;
   --font-semi-bold: 600;
+  --font-bold: 700;
 }
 
   /* Font size for large devices */

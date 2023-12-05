@@ -13,7 +13,9 @@
         <img src="app/assets/img/comala_plaza.jpg" alt="" class="logo_background">
         <div class="logo_container">
           <img src="app/assets/img/logo.svg" alt="Café del pueblo" class="logo_image">
-          <p class="logo_text"></p>
+          <div class="logo_go_action">
+            <p class="logo_text">Somos el mejor café que tomarás en tu vida.</p>
+          </div>
         </div>
       </section>
 
@@ -22,7 +24,8 @@
     </nav>
   </header>
 
-  <main class="main"></main>
+  <main class="main">
+  </main>
   
   <footer class="footer">
     <a href="" class="footer_logo">

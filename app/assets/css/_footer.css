@@ -1,4 +1,5 @@
 .footer_logo {
+  background-color: var(--color-white);
   display: flex;
   justify-content: center;
   width: 100%;

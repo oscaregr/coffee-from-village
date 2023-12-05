@@ -1,32 +1,45 @@
 .logo_section {
-  background: var(--color-light-shades);
+  background: linear-gradient(0deg, var(--color-brown-light) 30%, var(--color-brown-dark) 81%, var(--color-black) 98%);
   display: flex;
-  height: 100vh;
+  height: 65vh;
   justify-content: center;
   width: 100%;
 }
 
 .logo_background {
-  height: 100vh;
+  height: 65vh;
   object-fit: cover;
-  opacity: 0.6;
+  opacity: .15;
   position: relative;
   width: 100%;
 }
 
 .logo_container {
   align-self: center;
-  margin: .1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
   width: 100%;
 }
 
 .logo_image {
+  height: 25vh;
+  padding: 0;
+}
+
+.logo_go_action {
+  color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--expecial-font);
+  font-size: var(--normal-font-size);
+  text-align: center;
   width: 100%;
-  height: fit-content;
 }
 
 #menu__toggle {
+  display: none;
   opacity: 0;
 }
 
@@ -45,13 +58,13 @@
 }
 
 #menu__toggle:checked~.menu__box {
-  left: 0 !important;
+  right: 0 !important;
 }
 
 .menu__btn {
   cursor: pointer;
   height: 26px;
-  left: 20px;
+  right: 20px;
   position: fixed;
   top: 20px;
   width: 26px;
@@ -61,7 +74,7 @@
 .menu__btn>span,
 .menu__btn>span::before,
 .menu__btn>span::after {
-  background-color: var(--color-light-accent);
+  background-color: var(--color-red);
   display: block;
   height: 2px;
   position: absolute;
@@ -80,11 +93,11 @@
 }
 
 .menu__box {
-  background-color: var(--color-Main-brand);
+  background-color: var(--color-brown-light);
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .4);
   display: block;
   height: 100%;
-  left: -100%;
+  right: -100%;
   list-style: none;
   margin: 0;
   padding: 80px 0;
@@ -95,7 +108,7 @@
 }
 
 .menu__item {
-  color: var(--color-light-accent);
+  color: var(--color-red);
   display: block;
   font-size: 20px;
   font-weight: 600;
@@ -105,5 +118,5 @@
 }
 
 .menu__item:hover {
-  background-color: var(--color-dark-accent);
+  background-color: var(--color-brown);
 }
